@@ -1,0 +1,282 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+   
+    overflow-x: hidden;
+    background-color: rgb(40, 9, 27);
+    margin: 0;
+}
+
+.header{
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(61, 53, 53, 0.1);
+}
+.Text_div2{
+    top: 255px;
+    left: 0px;
+    height: 0px;
+    width:100%;
+    text-indent: 20px;
+    z-index: 2;
+    position: relative;
+}
+.Head_text2{
+    position: relative;
+    color: #fff;
+    font-size: 90px;
+    font-weight: 700;    
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.Text_div2 span{
+    color: #5d00ff;
+}
+.Main_div{
+    position: relative;
+    width: 100%;
+    height: 0px;
+    top: 950px;
+
+}
+.Main_text{
+    padding-top: 1200px;
+text-align: center;
+color: #fff;
+font-size: 50px;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+ .slider{
+    width: 1100px;
+    height: 600px;
+    overflow: hidden;
+    border: 1px solid #fff;
+ }
+ .middle{
+    position: absolute;
+    top: 1700px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+ .navigation{
+    position: absolute;
+    left: 24%;
+    padding-top: 1290px;
+ }
+ .bar{
+    color: #fff;
+    display: inline-block;
+    margin-right: 80px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all .6s ;
+ }
+.bar:hover{
+    color: #ff0000;
+    transform: scale(1.1);
+}
+input[name = "r"]{
+    position: absolute;
+    visibility: hidden;
+}
+.slides{
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+.slide{
+    width: 25%;
+    transition: all .7s ease;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+#r1:checked ~ .s1{
+    margin-left:0px;
+}
+#r2:checked ~ .s1{
+    margin-left:-25% ;
+}
+#r3:checked ~ .s1{
+    margin-left:-50%;
+}
+#r4:checked ~ .s1{
+    margin-left:-75%;
+}
+.line{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+   
+    top: 2100px;
+}
+.section{
+position: absolute;
+width: 100%;
+height: auto;
+}
+.Media_div{
+    position: relative;
+    width: 1200px;
+    height: 0px;
+    left: 670px;
+    top: 1330px;    
+}
+.P_media{
+    font-size: 60px;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.Media_div2{
+    position: relative;
+    width: 1200px;
+    height: 0px;
+    left: 530px;
+    top: 1400px;    
+}
+.P_media2{
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.More{
+    position: relative;
+
+
+    color: #000000;
+    font-size: 30px;
+    width: 230px;
+    height: 90px;
+    top: 1560px;
+    font-family: 'Josefin Sans', sans-serif;
+    left: 844px;
+    transition: .4s;
+}
+
+
+.line2{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+
+    
+    top: 2700px;
+}
+.card_div{
+    position: relative;
+    width: 100%;
+    height: 0px;
+    
+}
+.card_text{
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+.slider1{
+    width: 900px;
+    height: 500px;
+    overflow: hidden;
+    border: 3px solid #fff;
+    border-radius: 10px;
+ }
+ .slide li{
+    color: #fff;
+    position: relative; 
+    top: 150px;
+    left: 30px;
+    font-size: 40px;
+    list-style-type: none;
+    margin-top: 20px;
+ }
+ .middle1{
+    position: absolute;
+    top: 800px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+ .navigation1{
+    position: absolute;
+    left: 24%;
+    top: 600px;
+ }
+ .bar1{
+    display: block;
+    width: 250px;
+    height: 90px;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    background-color: #ff0000;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: all .6s ;
+    padding-top: 20px;
+ }
+ .bar1:hover{
+    background-color: #6f0f0f;
+ }
+ #bara1{
+    position: relative;
+    left: 357px;
+    bottom: 300px;
+ }
+ #bara2{
+    position: relative;
+    right: 390px;
+    top: 0px;
+ }
+ #bara3{
+    position: relative;
+    left: 1100px;
+    bottom: 76px;
+    z-index: 2;
+ }  
+ #bara4{
+    position: relative;
+    top: 250px;
+    left: 357px;
+ }
+input[name = "r1"]{
+    position: absolute;
+    visibility: hidden;
+}
+#r5:checked ~ .s6{
+    margin-left:0px;
+}
+#r6:checked ~ .s6{
+    margin-left:-25% ;
+}
+#r7:checked ~ .s6{
+    margin-left:-50%;
+}
+#r8:checked ~ .s6{
+    margin-left:-75%;
+}
+
+span{
+    width: 20px;
+    height: 100px;
+}
+span ol li{
+    font-weight: 200;
+    font-size:25px;
+    list-style-type: none;
+    color:white
+}
+span b{
+    font-family:"Roboto",Arial,sans-serif;
+    margin-right: 50PX;
+    color:white;
+    font-size:80px;
+}
